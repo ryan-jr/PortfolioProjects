@@ -132,15 +132,11 @@ class Carddeck(object):
         s = shelve.open("testShelf.db", writeback = True)
         for key in s:
             if ctr == selection:
-                print("This is the key", key)
-                print("This is length of the key", len(s[key]))
                 userFront = input("What do you want the front of the card to be?")
                 userBack = input("What do you want the back of the card to be?")
                 cardHolder.append(userFront)
                 cardHolder.append(userBack)
                 dictionary = {len(s[key]) + 1: cardHolder}  
-                print(dictionary)
-                print(s[key])
                 s[key].update(dictionary)
                 print(s[key])
                 s.close()
