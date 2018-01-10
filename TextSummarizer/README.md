@@ -1,6 +1,5 @@
 # Text Summarizer
 
-
 ## Summary:
 
 Based on [this](https://www.reddit.com/r/dailyprogrammer/comments/683w4s/20170428_challenge_312_hard_text_summarizer/?st=jbuzvkww&sh=6b3755be) challenge from r/dailyprogrammer this project reads in a paragraph/article from a file and summarizes it in 3 sentences.  
@@ -37,3 +36,16 @@ Furthermore, the business context  also appears to exert an important influence 
 ```
 
 
+## Challenges in implementation:
+
+1.  Edge Cases
+
+Unique abreviations in a sentence such as MR. or MRS. as well as U.S. and others provide unique edge cases that have to be accounted for.  
+
+2.  Weights
+
+Figuring out how to weight each sentence away from the most common word(s) to the most unique/relevant was a challenge solved via various statistical methods.  
+
+3.  Chronological Order
+
+Maintaining chronological order in the weighted sentences, when a higher score initially took precedence was intially a challenge, ultimately solved through appending the items in a list.  
