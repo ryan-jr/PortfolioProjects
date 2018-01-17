@@ -1,0 +1,38 @@
+ <!doctype html>
+ <html class="no-js" lang="">
+     <head>
+
+         <title>Flask App</title>
+         <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> </link>
+     </head>
+     <body>
+
+ 		
+ 		 {% include "includes/_navbar.html" %}
+ 		 <div class = "container">
+         {% block content %}
+
+         {% endblock content %}
+         </div>
+         
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ </script>
+     </body>
+     
+function changeColour(value)
+{
+    var color = document.body.style.backgroundColor;
+    switch(value)
+    {
+        case 'b':
+            color = "#FF0000";
+        break;
+        case 'r':
+            color = "#0000FF";
+        break;
+        case 'p':
+            color = "#FF00FF";
+        break;
+    }
+    document.body.style.backgroundColor = color; 
+ </html>
