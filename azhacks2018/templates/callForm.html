@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+      <h1>Call Entry Form</h1>
+      {% from "includes/_formhelpers.html" import render_field%}
+      <form method = "POST" action = "">
+      	<div class = "form-group">
+      	{{render_field(form.ptn)}}
+      	<p><input type = "submit" class = "btn btn-primary" value = "Submit"></p>
+      	<div> </div>
+      	<p> </p>
+
+      	{{form.provideName.label}}
+      	<p></p>
+
+      	{% for subfield in form.provideName %}
+			<tr>
+			    <td>{{ subfield }}</td>
+			    <td>{{ subfield.label }}</td>
+			</tr>
+			{% endfor %}
+
+		<div>
+		</div>
+		{{form.onlyCall.label}}
+		<p></p>
+      	{% for subfield in form.onlyCall %}
+			<tr>
+			    <td>{{ subfield }}</td>
+			    <td>{{ subfield.label }}</td>
+			</tr>
+
+		{% endfor %}	
+		<div>
+		</div>
+		{{form.additionalInfo.label}}
+		<p></p>
+      	{% for subfield in form.additionalInfo %}
+			<tr>
+			    <td>{{ subfield }}</td>
+			    <td>{{ subfield.label }}</td>
+			</tr>
+
+		{% endfor %}	
+		<div>
+		</div>
+		{{form.voicemask.label}}
+		<p></p>
+      	{% for subfield in form.voicemask %}
+			<tr>
+			    <td>{{ subfield }}</td>
+			    <td>{{ subfield.label }}</td>
+			</tr>
+
+		{% endfor %}
+		<div>
+		</div>
+
+      	<div style="width: 70%">
+      	{{render_field(form.otherData)}}
+      	</div>
+      	<p><input type = "submit" class = "btn btn-primary" value = "Submit"></p>
+
+
+      </form>
+
+{% endblock content %}
