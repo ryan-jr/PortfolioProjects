@@ -101,10 +101,9 @@ ENV/
 .mypy_cache/
 
 # Random files
-azhacks2018/templates
-hello.py
+azhacks2018/*
 HackathonIdeas
 HackathonIdeas.md
-templates
+*Hackathon.
 
 
