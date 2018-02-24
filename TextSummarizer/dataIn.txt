@@ -1,15 +1,191 @@
-The purpose of this paper is to extend existing research on entrepreneurial team formation under 
-a competence-based perspective by empirically testing the influence of the sectoral context on 
-that dynamics. We use inductive, theory-building design to understand how different sectoral 
-characteristics moderate the influence of entrepreneurial opportunity recognition on subsequent 
-entrepreneurial team formation. A sample of 195 founders who teamed up in the nascent phase of 
-Interned-based and Cleantech sectors is analysed. The results suggest a twofold moderating effect 
-of the sectoral context. First, a technologically more challenging sector (i.e. Cleantech) demands 
-technically more skilled entrepreneurs, but at the same time, it requires still fairly 
-commercially experienced and economically competent individuals. Furthermore, the business context 
-also appears to exert an important influence on team formation dynamics: data reveals that 
-individuals are more prone to team up with co-founders possessing complementary know-how when they 
-are starting a new business venture in Cleantech rather than in the Internet-based sector. 
-Overall, these results stress how the business context cannot be ignored when analysing 
-entrepreneurial team formation dynamics by offering interesting insights on the matter to 
-prospective entrepreneurs and interested policymakers.
+Qualifications and Skills
+
+A minimum of 5 years work experience in the Web Development Environment using the following technologies is highly desirable.
+
+Java (Spring Boot Framework)
+
+Hibernate
+
+PostgresSQL
+
+Solr
+
+Machine Learning
+
+AWS
+
+Unix
+
+Shell Scripting
+
+You will instantly be a key part of our fast growing team and we will welcome your ideas on how to optimize our solutions based on the latest technologies. Our goal is to make a world class solution and your skills will make that possible.
+
+Your Responsibilities Core Skills: 
+Responsible for the delivery of an entire software project or part of a project, including design, implementation, testing, integration (in-house) and documentation
+Lead mixed, cross-functional and multi-cultural project teams
+Monitor, track and communicate project status
+Ability to work with Product Management and Solution Management on refining business requirements and creating technical requirements, test cases, design specifications and development tasks
+Develop and test software in accordance with requirements, test cases and design documentation
+Guarantee the compliances of the QA rules and guidelines
+Document developed software applications and tools
+Deliver defined parts of a project, including design, implementation, testing, integration (in-house) and documentation
+Maintain and fix bugs
+Provide 2 nd and 3 rd level support
+Experience in investigating issues in production environments
+Maintain an awareness of new technologies and their applicability to improving the framework and business
+Provide guidance and best practices to implementation projects
+
+Technical Knowledge 
+Object-oriented analysis and design.
+Object-oriented programming and component-based development with Java.
+Enterprise software development and leadership experience.
+Customer service-oriented attitude, top-notch time management, and quality driven designs.
+Experience with Spring, Hibernate, JavaScript, Angular JS, HTML, CSS, SQL, XML, JMS, Linux operating systems, relational and document-oriented databases.
+Experience with Agile software development methodologies.
+At least 7 years of professional software development experience.
+Deep understanding of Java Web technologies JSF/JSP, jQuery, AngularJS
+UNIX and Windows operating systems development experience
+Continuous integration tools e.g. Jenkins, Sonar
+Demonstrated ability in designing, implementing and delivering high performance and complex Java EE solutions
+In-depth knowledge of EJB/JSF/JPA and development of HTML 5 user interfaces
+Knowledge of Oracle or SQL Server database design, programming knowledge (JDBC, SQL) and performance tuning
+
+Customer focus 
+Respond to internal customers promptly and competently
+Work with Solution and Product Management on Customer Software Solutions
+Deliver standard, easy to deploy and configure Customer Software Solutions
+Proactively work to develop and maintain good working relationships within the department, company and customers
+
+Your Profile Minimum Qualifications: 
+Bachelor's or Master's degree in computer science or related field
+At least 7+ years relevant work experience and track record in Software Development
+Strong Java (SE, EE) Skills
+Enterprise frameworks: EJB, JPA, JMS, Web Services
+SQL programming
+Understanding of Relational database concepts, architecture and SQL programming
+Excellent skills in problem solving and communication
+Designed, delivered and managed Java EE projects
+Deep knowledge of application integration and UI design
+Ability to lead projects and manage projects
+Experience in a commercial software development environment
+Knowledge in OO-Design and JAVA architectures
+Software design and development experience with web-based user interfaces
+Good Oracle or SQL Server database design and programming knowledge (JDBC, SQL)
+Ability to Travel internationally to clients and local country based offices
+
+Desirable but not Essential: 
+Experience in the field of inventory management systems, supply chain or logistics, medical or health care software
+
+MUST HAVE SKILLS:
+Knowledge and Experienced in Relational Databases (3+ years) 
+Knowledge and Experienced in Java – Spring and Hibernate (3+ years) 
+Knowledge and Experienced in RedHat Linux (3+ years) 
+Knowledge and Experienced in Data ETL from multiple data sources. (3+ years) 
+
+DESIRED SKILLS:
+Experience with Backend Architecture in Java 
+Experience writing solutions to clean, transform, and test data. 
+Experience with Oracle Databases. 
+Knowledgeable in developing metrics and analytics solutions 
+Experience developing solutions utilizing AWS 
+Knowledgeable about Cloud Foundry or Docker 
+Developing REST APIs utilizing Java Spring 
+Knowledgeable of Microservices Architecture 
+Familiarity with Networking and network protocols. 
+Experience using git and Jira 
+
+Qualifications and Skills
+
+A minimum of 5 years work experience in the Web Development Environment using the following technologies is highly desirable.
+
+Java (Spring Boot Framework)
+
+Hibernate
+
+PostgresSQL
+
+Solr
+
+Machine Learning
+
+AWS
+
+Unix
+
+Shell Scripting
+
+You will instantly be a key part of our fast growing team and we will welcome your ideas on how to optimize our solutions based on the latest technologies. Our goal is to make a world class solution and your skills will make that possible.
+
+What you will bring to the table:
+At least 5+ years of internet-focused Java JEE, particularly Java 8, development
+Understand SOA and OOP/OOD concepts
+Understand abstract problems and provide innovative solutions
+Work within a Servlet Container
+Work with Oracle RDBMS
+Demonstrated experience with Spring MVC, Spring Boot microservices, distributed messaging/JMS, MBeans, REST architecture, distributed caching, Git, CSS, AJAX, JavaScript, fluency in at least one Linux-based scripting language
+
+Required Skills:
+Bachelors in Computer Science, Software Engineering, or equivalent experience 
+
+2+ years of professional, full-time development experience using Java and/or Groovy or similar C based language 
+
+Strong understanding of object oriented programming design patterns 
+
+Experience with git and git based source control systems 
+
+Analytical Thinker - effective at understanding problems and developing one or more approaches to solving the problem 
+
+Applying standards - ability to follow, adopt and recommend and promote development standards 
+
+Communication - possess effective verbal and written communication skills suited for technical audiences, peers and clients 
+
+Helpful But Not Required:
+2+ years of professional, full-time experience with querying relational databases, preferably TSQL or PL/SQL 
+
+Knowledge of Windows Server based environments and networks
+
+Knowledge of Court Case Management Systems or Courts 
+
+SCRUM or Agile development methodologies 
+
+Knowledge of interfacing with REST and SOAP APIs 
+
+ESSENTIAL DUTIES AND RESPONSIBILITIES: 
+• Perform coding, testing, and maintenance on programs 
+• Contribute to design of various sized projects 
+• Provide support for systems and applications, with assistance as needed 
+• Handle critical problems with assistance 
+• Manage small to medium sized projects, from analysis through implementation 
+• Maintain appropriate documentation 
+• Make suggestions for improving development processes 
+• Work with vendors with supervision 
+• Pursue formal and informal educational opportunities to expand knowledge and improve skills 
+• Assist with, and contribute to, the technical direction of the Java Center of Excellence 
+• Continuously build and refine your Java environment 
+• Perform other duties and projects as assigned 
+
+Coding/Development (Java ) experience
+Amdocs
+API
+Database experience
+Self- starter
+
+Responsibilities
+Responsible for the design, development, enhancement and support of all Online Marketing Solutions and software applications.
+Implement robust, high volume applications using Java, Oracle and Linux.
+Work with stakeholders to gather requirements in order to develop appropriate applications.
+Prepare technical and operations documentation.
+Responsible for creating re-useable processes that help implement each solution.
+Participation in project reviews in order to improve methodology and delivery.
+Qualifications
+Bachelor’s Degree in Computer Science, Engineering or Math.
+3+ years of work experience in IT applications development or education equivalent.
+3+ years of application programming in: JAVA, Oracle or PL/SQL.
+Experience using Spring MVC, Spring, Hibernate, and AngularJS a plus.
+Experience with Internet technologies and online advertising is a huge plus.
+Exposure to relational database technologies, especially Oracle
+Basic UNIX/Linux knowledge/exposure is a plus but not required
+Understanding of software development processes and methodology.
+Ability to juggle multiple projects simultaneously and manage time efficiently.
+Excellent analytic skills.
+Deadline focused, detail oriented, well organized and self-motivated.

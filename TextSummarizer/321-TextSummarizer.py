@@ -282,7 +282,8 @@ stopList = list(map(lambda s: s.strip(), stopList))
 
 paraString = ""
 
-with open("dataIn.txt", "r", encoding="utf8") as dataFile:
+# Using cp1252 because utf-8 was resulting in 0x92 byte error(s)
+with open("dataIn.txt", "r", encoding="cp1252") as dataFile: 
     paraString = dataFile.read().replace("\n", " ")
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
