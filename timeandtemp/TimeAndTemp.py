@@ -15,12 +15,13 @@ with open("CityID.txt", "r") as file:
 
 cityID = list(map(lambda cID: cID[0:6], dataArr))
 
-# Enumerate in order to keep track of the index that you're replacing
+# Enumerate in order to keep  track of the index that you're replacing
+#message ellie resume
 for ID in cityID:
     for chars in ID:
-        if chars == '\\':
+        if chars == '\t':
             print("1")
-            chars.replace("\\", "")
+            chars = map(lambda x: chars.replace(x, "\t", ""), cityID)
         elif chars == "\t":
             print("2")
             chars.replace("t", " ")
