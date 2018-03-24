@@ -26,7 +26,7 @@ def getRequest(url):
 
 def main():
     print("Type 'quit' to close")
-    print("WebPy is a text based web browser")
+    print("WebPy is a text based web reader")
 
     while True:
         data = input("Website Address/URL:(e.g. http://www.google.com)\n>>>")
