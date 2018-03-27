@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hackathon - AR Team</title>
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="carousel.css" rel="stylesheet"> -->
+    <link href="index.css" rel="stylesheet">
+
+    <!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+  <!--  <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+   <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+   <script> THREEX.ArToolkitContext.baseURL = 'three.js';</script> -->
+
+  </head>
+<!-- NAVBAR
+================================================== -->
+<body style='margin : 0px; overflow: hidden;'>
+    <!-- <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>              
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Hackathon AR</a></li>
+                <li><a href="camera.html">Camera</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div> -->
+
+
+    <!-- Camera Hero
+    ================================================== -->
+    <!--
+    <div class="jumbotron">
+      <div class="container">
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+        <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+  <a-scene embedded arjs='sourceType: webcam;'>
+        <a-box position='0 0 0' material='opacity: 0.5;'></a-box>
+        <a-marker-camera preset='hiro'></a-marker-camera>
+    </a-scene>
+
+      </div>
+    </div>
+-->
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+    <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script> 
+
+<body style='margin : 0px; overflow: hidden;'>
+ 
+
+  <div class="canvas-content">
+    
+  </div>
+   
+  <div class="footer">
+
+    <div class="container fluid">
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-2 placeholder peeps" onclick="displayOne()">
+              <img src="images/pramodh.jpg" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Pramodh</h4>
+              <!-- <span class="text-muted">Something else</span> -->
+            </div>
+            <div class="col-xs-6 col-sm-2 placeholder peeps" onclick="displayTwo()">
+              <img src="images/jason.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Jason</h4>
+            </div>
+            <div class="col-xs-6 col-sm-2 placeholder peeps" onclick="displayThree()">
+              <img src="images/ryan.png" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Ryan</h4>
+            </div>
+            <div class="col-xs-6 col-sm-2 placeholder peeps" onclick="displayFour()">
+              <img src="images/jack.jpg" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Jack</h4>
+            </div>
+            <div class="col-xs-6 col-sm-2 placeholder peeps" onclick="displayFive()">
+              <img src="images/dee.jpg" width="100" height="100" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Dee</h4>
+            </div>
+          </div>
+    </div><!-- /.container -->
+  </div>
+   
+</body>
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>
