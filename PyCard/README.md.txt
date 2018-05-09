@@ -1,3 +1,0 @@
-# PyCard
-
-## A flashcard app
