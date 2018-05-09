@@ -1,11 +1,12 @@
 # PortfolioProjects
 
+## HackathonProjects
 
-## Text Summarizer
+Summary: A collection of projects developed with teams at various hackathons including Galvanize 2017 and SunHacks 2018.  
 
-Summary: Based on [this](https://www.reddit.com/r/dailyprogrammer/comments/683w4s/20170428_challenge_312_hard_text_summarizer/?st=jbuzvkww&sh=6b3755be) challenge from r/dailyprogrammer this project reads in a paragraph/article from a file and summarizes it in 3 sentences.  
+Technologies used: React, JS, HTML, Aframe.io (AR), CSS
 
-Technologies used: Python3
+***
 
 ## LetterWriter
 
@@ -13,9 +14,15 @@ Summary: The project uses a GUI with dropdowns and a text area to allow a user t
 
 Technologies used: Python3, Tkinter, FPDF
 
-## Hackathons
 
-Summary: A collection of projects developed with teams at various hackathons including Galvanize 2017 and SunHacks 2018.  
+## Text Summarizer
+
+Summary: Based on [this](https://www.reddit.com/r/dailyprogrammer/comments/683w4s/20170428_challenge_312_hard_text_summarizer/?st=jbuzvkww&sh=6b3755be) challenge from r/dailyprogrammer this project reads in a paragraph/article from a file and summarizes it in 3 sentences.  
+
+Technologies used: Python3
+
+
+***
 
 ## TimeAndTemp
 
@@ -23,4 +30,15 @@ Summary: A python script to access various APIs to get weather data for a random
 
 Technologies used: Python3, Tweepy, OpenWeatherData API, Twitter API
 
-##  
+***
+
+## WebPy
+
+Summary: A text based web browser built in Python3
+
+Technologies used: Python3
+
+## usefulModules
+
+Summary: A collection of useful, custom built modules, to take care of common tasks in programming including finding all instances of an element in an array, flattening a list, and a method that returns a list of primes.  
+
